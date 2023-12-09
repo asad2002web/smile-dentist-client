@@ -3,7 +3,7 @@ import Loading from './../../shared/Loading';
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Home page</h1>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content text-center">
           <div className="max-w-md">
