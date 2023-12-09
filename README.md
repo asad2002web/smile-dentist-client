@@ -26,8 +26,8 @@ npm install
 ```
 ## Usage
 ```bash
-npm start```
-
+npm start 
+```
 ## version 0.0.1
 
 ## License
