@@ -20,6 +20,11 @@ Create a web application that allows dentists to book appointments with patients
 - [ ] react
 - [ ] react-dom
 
+## Repository Clone
+```bash
+git clone https://github.com/asad2002web/smile-dentist-client
+```
+
 ## Installation
 ```bash
 npm install
