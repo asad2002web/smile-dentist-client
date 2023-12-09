@@ -35,8 +35,8 @@ npm start
 ```
 ## version 0.0.1
 
-## License
-MIT
+## Live Demo
+[Smile Dentist](https://smile-dentist-client.vercel.app)
 
 ##Author
 [Smile Dentist](https://github.com/asad2002web/smile-dentist-client)
