@@ -21,10 +21,12 @@ Create a web application that allows dentists to book appointments with patients
 - [ ] react-dom
 
 ## Installation
-- [ ] npm install
-
+```bash
+npm install
+```
 ## Usage
-- [ ] npm start
+```bash
+npm start```
 
 ## version 0.0.1
 
