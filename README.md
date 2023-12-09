@@ -1,8 +1,35 @@
-# React + Vite
+<!-- Smile Dentist markdown -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Smile Dentist
 
-Currently, two official plugins are available:
+## Description
+Smile Dentist is a web application that allows dentists to book appointments with patients.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Challenge
+Create a web application that allows dentists to book appointments with patients.
+
+## Solution
+
+## Features
+- [ ] Add dentists
+- [ ] Add patients
+- [ ] Add appointments
+- [ ] Add payments
+
+## Dependencies
+- [ ] react
+- [ ] react-dom
+
+## Installation
+- [ ] npm install
+
+## Usage
+- [ ] npm start
+
+## version 0.0.1
+
+## License
+MIT
+
+##Author
+[Smile Dentist](https://github.com/asad2002web/smile-dentist-client)
