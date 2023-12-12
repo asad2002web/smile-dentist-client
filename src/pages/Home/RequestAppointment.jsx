@@ -23,7 +23,7 @@ const RequestAppointment = () => {
                 " />
             </div>
             <div className="bg-blue-500 rounded-md px-12 py-12">
-                <form onSubmit={handleSubmit} className="flex flex-row items-center justify-center gap-5">
+                <form onSubmit={handleSubmit} className="flex flex-col md:flex-row items-center justify-center gap-5">
                     <input className="w-full" name="name" type="text" placeholder="Your Name" />
                     <input className="w-full" name="location" type="text" placeholder="Location" />
                     <select className="w-full" name="doctor">

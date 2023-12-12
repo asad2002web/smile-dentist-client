@@ -1,14 +1,32 @@
+import { HeroIcon, HeroImageBg, HeroImg } from "../../assets"
 
 const Hero = () => {
     return (
-        <div>
-            <div className="hero min-h-screen mb-[100px]" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
-                <div className="hero-overlay bg-opacity-60"></div>
-                <div className="hero-content text-center text-neutral-content">
-                    <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
+        <div style={styleBg}>
+            <div className="Container flex flex-col lg:flex-row items-center justify-between gap-3">
+                <div className="w-full md:w-1/2 lg:w-[60%]">
+                    <h5>Welcome To Decare</h5>
+                    <h1>We Are Best Dental Service</h1>
+                    <p>Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
+                    <div>
+                        <form>
+                            <input type="text" placeholder="Enter Your Email" />
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div className="w-full md:w-1/2 lg:w-[40%]">
+                    <div className="relative mb-[-62px] overflow-hidden">
+                        <img src={HeroImg} alt="Hero Img" />
+                        <div className="flex items-center rounded-sm gap-3 bg-white BoxShadowBorder absolute top-[50%] left-[10%] px-5 py-2" style={{
+                            animation: 'bounceAnimation 10s infinite alternate'
+                        }}>
+                            <img src={HeroIcon} alt="Hero Icon" />
+                            <div>
+                                <h1>Jon Doe</h1>
+                                <p>Dentist</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -17,3 +35,11 @@ const Hero = () => {
 }
 
 export default Hero
+
+
+const styleBg = {
+    backgroundImage: `url(${HeroImageBg})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'
+}

@@ -51,3 +51,19 @@ form button {
   @apply shadow-[rgba(0,0,0,0.02)_0px_1px_3px_0px,rgba(27,31,35,0.15)_0px_0px_0px_1px];
 }
 /* Home page CSS */
+
+
+
+@keyframes bounceAnimation {
+  30% {
+    transform: translateY(-15px);
+  }
+
+  60% {
+    transform: translateX(-15px);
+  }
+
+  to {
+    transform: translateY(-15px);
+  }
+}
