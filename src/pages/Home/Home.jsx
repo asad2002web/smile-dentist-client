@@ -1,6 +1,4 @@
-import { About, Hero, OurServices, RequestAppointment } from "../Home";
-import TestimonialSection from '../TestimonialSection/TestimonialSection';
-import Loading from './../../shared/Loading';
+import { About, Hero, OurServices, RequestAppointment, TestimonialSection } from "../Home";
 const Home = () => {
 
   return (
@@ -10,7 +8,6 @@ const Home = () => {
       <About />
       <RequestAppointment />
      <TestimonialSection/>
-      <Loading />
     </>
   
   )

@@ -1,46 +1,44 @@
 [
-    {
-      
-      "img":"https://i.ibb.co/Q8DQZJG/pr-icon3.png",
-      "plan": "Basic",
-      "price": "$49",
-      "billingCycle": "Weekly",
-      "features": [
-        "Aliquam quis justo at lorem",
-        "Fusce sodales, urna et tempus",
-        "Vestibulum blandit lorem quis",
-        "Orci varius natoque penatibus",
-        "Aliquam a nisl congue, auctor"
-      ],
-      "icon": "basic-icon.png"
-    },
-    {
-      "img":"https://i.ibb.co/gmzwbPr/pr-icon2.png",
-      "plan": "Standard",
-      "price": "$99",
-      "billingCycle": "Monthly",
-      "features": [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Sed do eiusmod tempor incidi",
-        "Ut labore et dolore magna ",
-        "Ut enim ad minim veniam"
-      ],
-      "icon": "standard-icon.png"
-    },
-    {
-      "img":"https://i.ibb.co/yQfvJCr/pr-icon1.png",
-      "plan": "Premium",
-      "price": "$149",
-      "billingCycle": "Half-yearly",
-      "features": [
-        "Duis aute irure dolor in reprehen",
-        "In voluptate velit esse cillum",
-        "Dolore eu fugiat nulla pariatur",
-        "Sunt in culpa qui officia deserunt ",
-        "Sunt in culpa qui officia deserunt "
-      ],
-      "icon": "premium-icon.png"
-    }
-  ]
-  
+  {
+    "img": "https://i.ibb.co/Q8DQZJG/pr-icon3.png",
+    "plan": "Basic",
+    "price": "$49",
+    "billingCycle": "Weekly",
+    "features": [
+      "Aliquam quis justo at lorem",
+      "Fusce sodales, urna et tempus",
+      "Vestibulum blandit lorem quis",
+      "Orci varius natoque penatibus",
+      "Aliquam a nisl congue, auctor"
+    ],
+    "icon": "basic-icon.png"
+  },
+  {
+    "img": "https://i.ibb.co/gmzwbPr/pr-icon2.png",
+    "plan": "Standard",
+    "price": "$99",
+    "billingCycle": "Monthly",
+    "features": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor incidi",
+      "Ut labore et dolore magna ",
+      "Ut enim ad minim veniam"
+    ],
+    "icon": "standard-icon.png"
+  },
+  {
+    "img": "https://i.ibb.co/yQfvJCr/pr-icon1.png",
+    "plan": "Premium",
+    "price": "$149",
+    "billingCycle": "Half-yearly",
+    "features": [
+      "Duis aute irure dolor in reprehen",
+      "In voluptate velit esse cillum",
+      "Dolore eu fugiat nulla pariatur",
+      "Sunt in culpa qui officia deserunt ",
+      "Sunt in culpa qui officia deserunt "
+    ],
+    "icon": "premium-icon.png"
+  }
+]
