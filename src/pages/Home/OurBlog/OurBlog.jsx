@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import { BlogImg1, BlogImg2, BlogImg3 } from "../../../assets";
-import { MdDateRange } from "react-icons/md";
 import { Title } from "../../../components"
+import BlogArticle from "./BlogArticle";
 
 const OurBlog = () => {
     return (
@@ -10,23 +9,7 @@ const OurBlog = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {
                     blogData.map((blog, id) => (
-                        <div key={id} className="rounded-md bg-base-100 BoxShadowBorder px-2 py-2 duration-300 group">
-                            <div className="flex flex-col items-start">
-                                <div className=" w-full h-[250px] mb-4 overflow-hidden">
-                                    <img className='w-full h-full mb-4 group-hover:scale-[1.1] duration-300' src={blog.image} alt={blog.heading} />
-                                </div>
-                                <div className="relative mb-3">
-                                    <div className='absolute top-[-70px] left-[30px] bg-blue-500 p-2 flex items-center gap-2 text-white rounded-md'>
-                                    <MdDateRange className="text-lg"/>
-                                        <span>{blog.date}</span>
-                            
-                                    </div>
-                                    <h1 className="Heading4">{blog.heading}</h1>
-                                    <p className="mb-6">{blog.content}</p>
-                                    <Link to="#" className="PrimaryButton mt-5 p-2">Read More</Link>
-                                </div>
-                            </div>
-                        </div>
+                        <BlogArticle key={id} blog={blog} />
                     ))
                 }
             </div>

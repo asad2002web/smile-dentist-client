@@ -27,3 +27,6 @@ import BlogImg2 from "./images/blog-img(2).jpg";
 import BlogImg3 from "./images/blog-img(3).jpg";
 export {BlogImg1, BlogImg2, BlogImg3};
 
+// Call man
+import CallMan from "./images/call-man.png";
+export {CallMan};
