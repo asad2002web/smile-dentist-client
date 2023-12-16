@@ -8,4 +8,5 @@ const Title = ({miniTitle, Title}) => {
   )
 }
 
-export default Title
+export default Title;
+

@@ -1,4 +1,4 @@
-const TestimonialCard = ({ ...pricing }) => {
+const PricingCard = ({ ...pricing }) => {
   const { img, plan, price, billingCycle, features, } = pricing;
 
   return (
@@ -46,4 +46,4 @@ const TestimonialCard = ({ ...pricing }) => {
   );
 };
 
-export default TestimonialCard;
+export default PricingCard;
