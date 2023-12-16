@@ -1,4 +1,4 @@
-import { About, Hero, OurServices, RequestAppointment, TestimonialSection } from "../Home";
+import { About, Hero, OurBlog, OurServices, RequestAppointment, TestimonialSection, WelcomeBanner } from "../Home";
 const Home = () => {
 
   return (
@@ -8,6 +8,8 @@ const Home = () => {
       <About />
       <RequestAppointment />
      <TestimonialSection/>
+     <WelcomeBanner />
+     <OurBlog />
     </>
   
   )

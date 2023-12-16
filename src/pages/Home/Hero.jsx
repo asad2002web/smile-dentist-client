@@ -18,7 +18,7 @@ const Hero = () => {
                 <div className="w-full md:w-1/2 lg:w-[40%]">
                     <div className="relative mb-[-62px] overflow-hidden">
                         <img src={HeroImg} alt="Hero Img" />
-                        <div className="flex items-center rounded-sm gap-3 bg-white BoxShadowBorder absolute top-[50%] left-[10%] px-5 py-2" style={{
+                        <div className="flex items-center rounded-sm gap-3 bg-white BoxShadowBorder absolute top-[40%] left-[55%] px-4 py-2" style={{
                             animation: 'bounceAnimation 10s infinite alternate'
                         }}>
                             <img src={HeroIcon} alt="Hero Icon" />
