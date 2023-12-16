@@ -41,6 +41,9 @@ form button {
 .Heading3 {
   @apply text-[34px] md:text-[48px];
 }
+.Heading4 {
+  @apply text-[22px] md:text-[25px] hover:text-[#3660d9] transition duration-[300ms];
+}
 .MiniTitle {
   @apply text-lg md:text-[24px] text-[#3660d9];
 }
