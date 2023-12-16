@@ -1,4 +1,4 @@
-import { About, Hero, OurServices, RequestAppointment, TestimonialSection } from "../Home";
+import { About, Hero, OurServices, RequestAppointment, PricingSection ,OurClients,OurDoctor} from "../Home";
 const Home = () => {
 
   return (
@@ -7,7 +7,9 @@ const Home = () => {
       <OurServices />
       <About />
       <RequestAppointment />
-     <TestimonialSection/>
+     <PricingSection/>
+     <OurClients/>
+     <OurDoctor/>
     </>
   
   )
