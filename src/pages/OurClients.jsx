@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Title } from "../components"
-import {Rating} from '../components';
+import { Rating } from '../components';
 
 
 const OurClients = () => {
@@ -52,15 +52,15 @@ const OurClients = () => {
       <div>
         <Slider {...settings}>
           {data.map(d => (
-            <div key={d.name} className="border px-10 relative">
-              <div className=" ">
+            <div key={d.name} className="border px-10 ">
+              <div className="relative">
                 <img
-                  className="h-36 w-32 border p-3 "
+                  className="h-36 w-32 border p-3 absolute top-[-50px] left-10 z-50"
                   src={d.image}
                   alt={d.name}
                 />
               </div>
-              <Rating  rating={userRating} />
+              <Rating rating={userRating} />
               <div className="">
                 <p className="py-2 pragrap">“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                 <h1 className="Heading4">{d.name}</h1>

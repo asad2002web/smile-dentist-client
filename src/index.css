@@ -77,3 +77,14 @@ form button {
 .slick-slide > div{
   margin:0 10px
 }
+
+.client-relative {
+  position: relative;
+  z-index: 1;
+}
+.client-img {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  z-index: 10;
+}
