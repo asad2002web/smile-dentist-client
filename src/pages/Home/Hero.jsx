@@ -2,7 +2,7 @@ import { HeroIcon, HeroImageBg, HeroImg } from "../../assets"
 
 const Hero = () => {
     return (
-        <div style={styleBg} className="my-20">
+        <div style={styleBg} className="mb-20 pt-10">
             <div className="Container flex flex-col lg:flex-row items-center justify-between gap-3">
                 <div className="w-full lg:w-[60%]">
                     <h5 className="MiniTitle ">Welcome To Decare</h5>

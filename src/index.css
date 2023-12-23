@@ -93,3 +93,13 @@ form button {
   backdrop-filter: blur(10px); /* You can adjust the blur amount as needed */
   background-color: rgba(129, 156, 218, 0.8); /* Adjust the background color and opacity */
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+color:black;
+  z-index: 50;
+}

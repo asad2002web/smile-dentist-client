@@ -115,7 +115,9 @@ const Login = () => {
               className="w-full px-4 py-2 mt-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-500 transition duration-300"
             />
           </div>
-          <div className="link-hover text-right pb-4 text-white text-sm md:text-xl">Forgot Password</div>
+          <div className="link-hover text-right pb-4 text-white text-sm md:text-xl">
+            <Link>Forget Password </Link>
+            </div>
 
 
           <button type="submit" className="PrimaryButton px-[30px] w-full">Sign in</button>
