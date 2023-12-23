@@ -1,4 +1,8 @@
-import { About, Hero, OurBlog, OurServices, RequestAppointment, TestimonialSection, WelcomeBanner, PricingSection, OurClients, OurDoctor } from "../Home";
+import {
+  About, Hero, OurBlog, OurServices, RequestAppointment, TestimonialSection, WelcomeBanner, PricingSection, OurClients,
+  OurDoctor
+} from "../Home";
+// import Login from "./Login/Login";
 const Home = () => {
 
   return (
@@ -13,6 +17,8 @@ const Home = () => {
       <OurDoctor />
       <WelcomeBanner />
       <OurBlog />
+      {/* <Login /> */}
+
     </>
 
   )
