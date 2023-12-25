@@ -5,18 +5,12 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [navbar, setNavbar] = useState()
   const navList = <>
-
     <li><Link to="/">Home</Link></li>
     <li><a>About</a></li>
     <li><a>Services</a></li>
-    <li><a>Pages</a></li>
     <li><a>Blogs</a></li>
     <li><a>Contacts</a></li>
-
-
     <li><Link to="/login">Login</Link></li>
-    <li><Link to="/register">Register</Link></li>
-
   </>
 
   const changeBackground = () => {

@@ -18,7 +18,6 @@ const Home = () => {
       <WelcomeBanner />
       <OurBlog />
       {/* <Login /> */}
-
     </>
 
   )
