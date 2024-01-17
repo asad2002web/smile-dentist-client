@@ -17,7 +17,6 @@ const Home = () => {
       <OurDoctor />
       <WelcomeBanner />
       <OurBlog />
-      {/* <Login /> */}
     </>
 
   )

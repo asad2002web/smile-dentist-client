@@ -1,85 +1,21 @@
-
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
-
-// const Login = () => {
-//   const { register, errors } = useForm();
-
-//   const onSubmit = (data) => {
-//     // Handle login logic here
-//     console.log(data);
-//   };
-
-//   return (
-//     <div className="flex items-center justify-center h-screen">
-//       <form className="bg-white p-8 rounded shadow-md w-full sm:w-96">
-//         <div className="mb-4">
-//           <label htmlFor="usernameOrEmail" className="block text-gray-700 text-sm font-bold mb-2">
-//             Username or Email
-//           </label>
-//           <input
-//             type="text"
-//             id="usernameOrEmail"
-//             name="usernameOrEmail"
-//             className="border rounded w-full py-2 px-3 focus:outline-none focus:shadow-outline"
-
-//           />
-
-//         </div>
-
-//         <div className="mb-4">
-//           <label htmlFor="password" className="block text-gray-700 text-sm font-bold mb-2">
-//             Password
-//           </label>
-//           <input
-//             type="password"
-//             id="password"
-//             name="password"
-//             className="border rounded w-full py-2 px-3 focus:outline-none focus:shadow-outline"
-//             // ref={register({ required: 'This field is required' })}
-//           />
-//           {/* {errors.password && <p className="text-red-500 text-xs mt-1">{errors.password.message}</p>} */}
-//         </div>
-
-//         <div className="text-center">
-//           <button
-//             type="submit"
-//             className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 focus:outline-none focus:shadow-outline"
-//           >
-//             Login
-//           </button>
-//         </div>
-//       </form>
-//     </div>
-//   );
-// };
-
-// export default Login;
-
-
-// {
-//   "_id": {
-//     "$oid": "658089db65a2bb19294b8eeb"
-//   },
-//   "name": "John Doe",
-//   "username": "john_doe",
-//   "password": "YourSecurePassword123",
-//   "email": "john.doe@example.com",
-//   "gender": "Male",
-//   "__v": 0
-// }
+import useAuth from '../hooks/useAuth';
 
 const Login = () => {
   const { handleSubmit, register, reset } = useForm();
+  const { singIn } = useAuth();
 
   const onSubmit = (data) => {
-    // Handle form submission
-    console.log(data);
+    singIn(data.email, data.password).then((result) => {
+      const user = result.user;
+      console.log(user);
+    })
     reset();
   };
 
   return (
-    <div className=" bg-cover h-screen bg-center bg-no-repeat "
+    <div className=" bg-cover py-20 bg-center bg-no-repeat "
       style={{ backgroundImage: 'url("https://i.ibb.co/fFZDkMR/wp9764093.jpg")' }}>
       <div className='pt-20 px-5'>
         <form onSubmit={handleSubmit(onSubmit)}
@@ -101,7 +37,7 @@ const Login = () => {
             </label>
             <input
               {...register('email', { required: 'Email is required' })}
-              className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 transition duration-300"
+              className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 transition duration-300" type='email'
             />
           </div>
 
@@ -117,7 +53,7 @@ const Login = () => {
           </div>
           <div className="link-hover text-right pb-4 text-white text-sm md:text-xl">
             <Link>Forget Password </Link>
-            </div>
+          </div>
 
 
           <button type="submit" className="PrimaryButton px-[30px] w-full">Sign in</button>
